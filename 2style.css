@@ -1,0 +1,59 @@
+#real-alert {
+    color: magenta;
+    text-shadow: dodgerblue;
+    font-size: 23px ;
+    font-family: Gabriola;
+
+}
+#test-only {
+    color: #032358;
+    font-family: bl;
+    font-size: 23px;
+    font-family: Gabriola;
+}
+.missile-link {
+    display:  block;
+    font-family: "Gabriola";
+    font-size: 23px;
+    text-shadow: dodgerblue;
+
+}
+.alerts {
+    border: 1px black double;
+    box-shadow: 2px 2px gray;
+    margin: 5px;
+    padding: 5px;
+    background-color: deepskyblue;
+    color: red;
+    text-shadow: 2px 2px greenyellow;
+
+}
+.link-alert {
+    border: 1px black double;
+    box-shadow: 2px 2px gray;
+    margin: 5px;
+    padding: 5px;
+    background-color: darkkhaki;
+    text-decoration: none;
+
+}
+.only {
+    border: 1px black double;
+    box-shadow: 2px 2px gray;
+    margin: 5px;
+    padding: 5px;
+    background-color: aqua;
+
+}
+.square {
+    border: 1px black double;
+    margin: 5px;
+    padding: 5px;
+    background-color: aqua;
+
+}
+.color {
+    font-family: Gabriola;
+    font-size: 25px;
+    color: darkred;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body class="m-3">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+ntegrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+crossorigin="anonymous">
+
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Oswald:wght@500&display=swap"
+      rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="confere.css">
+
+<div class="jumbotron at-all" >
+  <h class="header">  This is Conference Registration Form</h>
+</div>
+
+
+
+<form>
+  <div class="header">
+    <label for="Uname">Name</label> <input id="Uname" class="form-control"  type="text" maxlength="70" required><br>
+    <label for="P_word">Password</label> <input id="P_word" class="form-control" required type="password"><br>
+    <label for="Email">Email</label> <input id="email" class="form-control" required type="email"><br>
+    <p> T-shit Size</p>
+
+    <select required>
+      <option  >small</option>
+      <option>medium</option>
+      <option>large</option>
+    </select><br>
+
+    <label> Date of birth? </label> <input type="date" required>
+
+  </div><br>
+
+  <label> Do you want to receive email from the conference sponsors?</label>
+
+  <div class="form-check">
+    <input id="yes" name="current_student_method" class="form-check-input" type="radio" required  checked>
+    <label for="yes" class="form-check-label"> Yes  </label>
+  </div>
+
+
+  <div class="form-check">
+    <input id="no" name="current_student_method" class="form-check-input" type="radio" required>
+    <label for="no" class="form-check-label"> No </label>
+  </div>
+
+  <div>
+    <lable>What shift do you want to attend? </lable> <br>
+    <input name = "shift" type="radio"> Morning
+    <input name = "shift" type="radio"> Afternoon
+  </div>
+
+  <div>
+    <br><p> Special Requests</p>
+    <textarea rows="7" cols="70" maxlength="250" minlength="100" class = "form-control"  ></textarea><br>
+  </div>
+
+  <div>
+    <input  type="submit" class="btn btn-primary mt-4 " >
+  </div>
+
+</form>
+
+</body>
+</html>

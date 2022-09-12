@@ -1,0 +1,50 @@
+body {
+    background-color: rgba(0, 255, 196, 0.79);
+    font-family:  'Lora', serif;
+
+}
+
+#square{
+    border: 1px black double;
+    padding: 5px;
+    margin-left: 792px;
+
+
+}
+.jumbotron {
+    font-size: 45px;
+    font-family: "font-family: 'Oswald', sans-serif;";
+    text-align: center;
+    background-color: rgba(68, 40, 76, 0.96);
+    color: aqua;
+    font-family: Impact;
+
+
+
+
+
+}
+.title_de {
+    color: aqua;
+    font-family: Impact;
+    text-align: center;
+    margin-top-top: auto;: 250px;
+
+
+}
+.col-md-5 {
+    border: 1px black double;
+    padding: 5px;
+
+
+
+}
+.col-md-7 {
+    border: 1px black double;
+    padding: 5px;
+
+
+
+}
+
+

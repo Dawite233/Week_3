@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:Username="http://www.w3.org/1999/xhtml" xmlns:Username="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <title>Send Missile Alert</title>
+</head>
+
+<body class="m-3">
+<div class = " alerts " >
+<h1>Missile Alerts</h1>
+
+
+  <br>
+
+<link rel="stylesheet" type="text/css" href="2style.css">
+</div>
+
+<div class = "link-alert" >
+<a id="real-alert" class="missile-link" href="#">Send Missile Alert</a>
+</div>
+<div class = " only " >
+<a id="test-only" class="missile-link" href="#">Send Test Missile Alert</a>
+</div>
+
+</body>
+</html>
+
+<p> Enter your name:</p>
+<!-- The simplest input possible. -->
+
+<br><input type="checkbox">
+<br> What is lucky number?  <input type="number">
+<br><input type="color">
+<br><input type="date">
+<br><input type="datetime-local">
+<br><input type="search">
+<br><input type="email">
+<br><input type="time">
+<br>
+<br>
+<textarea rows="15" cols="35">Default text here</textarea>
+
+<br><select>
+  <option>One</option>
+  <option>Two</option>
+  <option>Three</option>
+  <option>Four</option>
+  <option>Five</option>
+  <option>Six</option>
+  <option>Seven</option>
+  <option>Eight</option>
+  <option>Nine</option>
+  <option>Ten</option>
+</select>
+
+<form>
+
+<br>
+<label> Delivery or Pick-Up</label>
+<br>
+<input name = "Delivery-method" type="radio" checked>Delivery
+<input type="checkbox" checked>
+<input name = "Delivery-method" type="radio">Pick-Up
+
+<br>
+<p> Now or Later </p>
+<input id="delivery-now" name = "Delivery-Time" type="radio">
+<label for="delivery-now">Now</label>
+<input id = "Delivery-later" type="radio" >
+<label for="Delivery-later"> Later</label>
+
+
+
+<p> What time will be the best for you to delivery your order?</p>
+<input type="time" maxlength="12">
+
+
+<br>
+
+  <label for="username">Username:</label> <input id="username" name="username">
+  <br><label for="password">Password</label><input id="password" name="password" type="password">
+
+<div class="square">
+  <br>
+  <br>
+  <br>
+
+  <label for="Uname">Username:</label> <input id="Uname" name="Uname" required>
+  <br><label for="P_word">Password:</label> <input id="P_word" name="P_word" required type="password">
+
+  <br> <p> Comments</p>
+  <textarea rows="5" cols="55" maxlength="250" minlength="100" required>  Write Comments</textarea>
+
+  <br>
+  <label> Are you a current student?</label>
+
+  <input id="yes" name="current_student_method" type="radio" required >
+  <label for="yes"> Yes </label>
+  <input id="no" name="current_student_method" type="radio" required>
+  <label for="no"> No </label>
+
+
+  <br>  <br>
+  <label> date of birth?</label>
+  <input type="date">
+  <br> <br> How many years have you lives in United States? <input type="number" required value="0">
+  <br><br>
+  <input class="color" type="submit" required>
+</div>
+</form>
+
+
+
